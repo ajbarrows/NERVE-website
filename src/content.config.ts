@@ -67,12 +67,14 @@ const team = defineCollection({
       'Professor',
       'Associate Professor',
       'Assistant Professor',
+      'Faculty Scientist',
       'Postdoc',
       'Research Assistant',
+      'Research Scientist',
       'PhD Student',
       'Master Student',
       'Undergraduate',
-      'Alumni'
+      'Alumni',
     ]),
     title: z.array(z.string()).optional(), // For specific academic titles like "Academician", "Changjiang Scholar"
     avatar: z.string().optional(), // public path, e.g. /assets/people/tony.jpg (omit for Alumni)

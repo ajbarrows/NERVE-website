@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(python *)",
+      "Bash(pubman *)",
+      "Bash(xargs rm *)",
+      "Bash(defuddle parse *)",
+      "Bash(python3 *)",
+      "Bash(npx astro *)"
+    ]
+  }
+}

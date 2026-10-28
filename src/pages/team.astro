@@ -15,7 +15,7 @@ const groups = [
   {
     id: 'faculty',
     titleKey: 'team.faculty',
-    roles: ['Professor', 'Associate Professor', 'Assistant Professor']
+    roles: ['Professor', 'Associate Professor', 'Assistant Professor', 'Faculty Scientist']
   },
   {
     id: 'postdoc',
@@ -30,7 +30,7 @@ const groups = [
   {
     id: 'staff',
     titleKey: 'team.support',
-    roles: ['Research Assistant']
+    roles: ['Research Assistant', 'Research Scientist']
   },
   {
     id: 'master',
@@ -55,12 +55,14 @@ const getRolePriority = (role: string) => {
     'Professor': 1,
     'Associate Professor': 2,
     'Assistant Professor': 3,
-    'Postdoc': 4,
-    'Research Assistant': 5,
-    'PhD Student': 6,
-    'Master Student': 7,
-    'Undergraduate': 8,
-    'Alumni': 9
+    'Faculty Scientist': 4,
+    'Postdoc': 5,
+    'Research Scientist': 6,
+    'Research Assistant': 7,
+    'PhD Student': 8,
+    'Master Student': 9,
+    'Undergraduate': 10,
+    'Alumni': 11
   };
   return priorities[role] ?? 99;
 };

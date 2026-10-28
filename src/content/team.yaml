@@ -6,7 +6,8 @@
 # Required: id, name, role, avatar. Everything else is optional.
 #
 #   role:        one of Principal Investigator | Professor | Associate Professor |
-#                Assistant Professor | Postdoc | Research Assistant | PhD Student |
+#                Assistant Professor | Faculty Scientist | Postdoc |
+#                Research Scientist | Research Assistant | PhD Student |
 #                Master Student | Undergraduate | Alumni
 #   title:       list of badge labels shown on the card, e.g. [Postdoc]
 #   avatar:      put the image in public/assets/people/ and point to it here
@@ -80,11 +81,11 @@
   weight: 13
   author_keys: ["Cioffredi, Leigh-Anne", "Cioffredi, L. A."]
 
-- id: postdoc-anthony-juliano
+- id: faculty-anthony-juliano
   name: Anthony Juliano
-  role: Postdoc
-  title: [Postdoc]
-  avatar: /assets/people/anthony.webp
+  role: Faculty Scientist
+  title: [Faculty Scientist]
+  avatar: /assets/people/anthony.jpg
   weight: 20
   author_keys: ["Juliano, Anthony", "Juliano, Anthony C.", "Juliano, Anthony C", "Juliano, A."]
 
@@ -145,8 +146,8 @@
 
 - id: staff-dk-yuan
   name: DK Yuan
-  role: Research Assistant
-  title: [Research Scientist]
+  role: Research Scientist
+  title: [MRI Researcher/Analyst]
   avatar: /assets/people/dk.jpg
   linkedin: https://www.linkedin.com/in/dekang-yuan-b09076b0/
   weight: 40
