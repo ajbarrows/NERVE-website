@@ -14,6 +14,7 @@ export const SITE = {
   logo: undefined as string | undefined, // Logo path, e.g. '/assets/logo-real.svg' (unset = no header logo)
   avatar: undefined as string | undefined, // Avatar for SEO/Schema (falls back to logo)
   email: 'nervelab@uvm.edu', // Contact email for Join Us page
+  github: 'https://github.com/uvmnervelab', // Lab GitHub organization
 
   // Hero Section (Home Page)
   hero: {
@@ -57,7 +58,7 @@ export const LOGO_IMAGE = {
 
 export const SOCIALS = [
   {
-    link: 'https://github.com/fjd2004711/scholar-lite',
+    link: 'https://github.com/uvmnervelab',
     active: true,
   },
 ];

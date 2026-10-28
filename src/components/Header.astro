@@ -2,7 +2,7 @@
 import { SITE, LOGO_IMAGE } from '../config';
 import {
   Menu, X, Globe, ChevronDown, Check, Moon, Sun,
-  Home, BookOpen, Trophy, Users, Calendar, UserPlus, Sparkles, Search, FileText, Newspaper
+  Home, BookOpen, Trophy, Users, Calendar, UserPlus, Sparkles, Search, FileText, Newspaper, Github
 } from 'lucide-react';
 
 import { ui, defaultLang, languages } from '../i18n/ui';
@@ -80,9 +80,19 @@ const getIcon = (key: string) => iconMap[key] || Sparkles;
              {item.text}
            </a>
         ))}
-        
-        
-        
+
+        <!-- GitHub -->
+        <a
+          href={SITE.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="p-2 text-gray-600 hover:text-blue-600 hover:bg-gray-50 rounded-full transition-colors"
+          aria-label="NERVE Lab on GitHub"
+          title="NERVE Lab on GitHub"
+        >
+          <Github className="w-5 h-5" />
+        </a>
+
         {i18n.enabled && (
           <div class="relative ml-2 group">
             <button 
@@ -179,6 +189,17 @@ const getIcon = (key: string) => iconMap[key] || Sparkles;
            <ChevronDown className="w-5 h-5 -rotate-90 text-gray-400" />
         </a>
       ))}
+
+      <!-- GitHub Mobile -->
+      <a
+        href={SITE.github}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center justify-between w-full py-4 px-4 text-lg font-medium text-gray-800 hover:text-blue-600 hover:bg-gray-50 rounded-xl transition-all border-b border-gray-100 last:border-0"
+      >
+        <span class="flex items-center gap-2"><Github className="w-5 h-5" /> GitHub</span>
+        <ChevronDown className="w-5 h-5 -rotate-90 text-gray-400" />
+      </a>
 
       {i18n.enabled && (
         <div class="mt-8 pt-6 border-t border-gray-100">
