@@ -18,6 +18,7 @@ type: paper
 pubman_managed: true
 featured: true
 month: 12
+date: '2026-10-06'
 links:
   website: https://doi.org/10.1016/j.dcn.2026.101836
 figure: /assets/images/figures/ArBa26.jpg

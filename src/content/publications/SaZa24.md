@@ -75,6 +75,7 @@ type: paper
 pubman_managed: true
 featured: false
 month: 2
+date: '2024-02-07'
 links:
   website: https://doi.org/10.1001/jamapsychiatry.2023.5483
 figure: /assets/images/figures/SaZa24.jpg

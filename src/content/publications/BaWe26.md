@@ -14,6 +14,7 @@ type: paper
 pubman_managed: true
 featured: false
 month: 2
+date: '2026-02-18'
 links:
   website: https://doi.org/10.1162/JOCN.a.2487
 figure: /assets/images/figures/BaWe26.png

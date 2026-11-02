@@ -14,6 +14,7 @@ venue: NeuroImage
 type: paper
 pubman_managed: true
 featured: false
+date: '2023-02-16'
 links:
   website: https://doi.org/10.1016/j.neuroimage.2023.119946
 figure: /assets/images/figures/WeCa23.jpg

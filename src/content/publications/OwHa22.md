@@ -16,6 +16,7 @@ type: paper
 pubman_managed: true
 featured: false
 month: 12
+date: '2021-12-16'
 links:
   website: https://doi.org/10.1037/pha0000532
 figure: /assets/images/figures/OwHa22.jpg

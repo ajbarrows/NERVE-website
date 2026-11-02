@@ -1,3 +1,32 @@
+- key: MoCi26
+  type: article
+  category: peer-reviewed
+  title: Early Infant Subcortical Volume is Associated with Maternal Prenatal Depression
+  authors:
+  - first: Hannah L.
+    last: Morgan
+  - first: Leigh-Anne
+    last: Cioffredi
+  - first: Nadia
+    last: Scoppettone
+  - first: Anthony J.
+    last: Barrows
+  - first: Nicole E.
+    last: Lorenzo
+  - first: Jiming
+    last: Zhang
+  - first: Hugh
+    last: Garavan
+  - first: Alexandra
+    last: Potter
+  year: 2026
+  featured: true
+  image: /assets/images/figures/MoCi26.jpg
+  month: 10
+  journal: Biological Psychiatry Global Open Science
+  pages: '100859'
+  doi: 10.1016/j.bpsgos.2026.100859
+  date: '2026-10-22'
 - key: ArBa26
   type: article
   category: peer-reviewed
@@ -32,6 +61,7 @@
   volume: '82'
   pages: '101836'
   doi: 10.1016/j.dcn.2026.101836
+  date: '2026-10-06'
 - key: deTu26
   type: article
   category: peer-reviewed
@@ -73,6 +103,7 @@
   volume: '80'
   pages: '101740'
   doi: 10.1016/j.dcn.2026.101740
+  date: '2026-05-09'
 - key: OLo26
   type: article
   category: peer-reviewed
@@ -122,6 +153,7 @@
     \ these findings suggest that previously reported associations between AP and delayed cortical thinning likely reflect\
     \ unaccounted-for sex differences in neurodevelopment rather than AP-specific maturational delays, questioning the utility\
     \ of cortical maturation patterns as diagnostic biomarkers for ADHD-related behavior."
+  date: '2026-05-18'
 - key: BaPs26
   type: article
   category: peer-reviewed
@@ -248,6 +280,7 @@
     \ initial HBCD Study data release, more than minimal exposure to cannabis and opioids was associated with smaller birth\
     \ size, adding evidence to an inconsistent literature. Future studies from HBCD can more deeply interrogate timing and\
     \ dose of each substance and expand to childhood outcomes."
+  date: '2026-05-26'
 - key: GuAl26
   type: article
   category: peer-reviewed
@@ -271,6 +304,7 @@
   journal: Developmental Cognitive Neuroscience
   volume: 79
   doi: 10.1016/j.dcn.2026.101689
+  date: '2026-02-05'
 - key: BaWe26
   type: article
   category: peer-reviewed
@@ -295,6 +329,7 @@
   month: 2
   journal: Journal of Cognitive Neuroscience
   doi: 10.1162/JOCN.a.2487
+  date: '2026-02-18'
 - key: GoWo26
   type: article
   category: peer-reviewed
@@ -329,6 +364,7 @@
   groups:
   - span
   doi: 10.1016/j.bpsgos.2025.100624
+  date: '2025-10-01'
 - key: BaKl25
   type: article
   category: peer-reviewed
@@ -353,6 +389,7 @@
   journal: BMJ Public Health
   volume: 3
   doi: 10.1136/bmjph-2024-001605
+  date: '2025-07-01'
 - key: UdGa25
   type: article
   category: peer-reviewed
@@ -367,6 +404,7 @@
   image: /assets/images/figures/LuHu25.jpg
   journal: Biological Psychiatry
   doi: 10.1016/j.biopsych.2025.09.012
+  date: '2025-10-01'
 - key: CuMe25
   type: article
   category: peer-reviewed
@@ -446,6 +484,7 @@
   volume: 120
   number: 5
   doi: 10.1111/add.16750
+  date: '2025-01-10'
 - key: ChLi25
   type: article
   category: peer-reviewed
@@ -527,6 +566,7 @@
   month: September
   journal: Molecular Psychiatry
   doi: 10.1038/s41380-025-03196-6
+  date: '2025-09-05'
 - key: MiBa24
   type: article
   category: peer-reviewed
@@ -558,6 +598,7 @@
   volume: 7
   number: 12
   doi: 10.1001/jamanetworkopen.2024.52027
+  date: '2024-12-30'
 - key: OtCu24
   type: article
   category: peer-reviewed
@@ -614,6 +655,7 @@
   volume: 119
   number: 1
   doi: 10.1111/add.16330
+  date: '2023-09-19'
 - key: ThJu24
   type: article
   category: peer-reviewed
@@ -658,6 +700,7 @@
   journal: 'Psychiatry Research: Neuroimaging'
   volume: 344
   doi: 10.1016/j.pscychresns.2024.111877
+  date: '2024-08-22'
 - key: CaZh24
   type: article
   category: peer-reviewed
@@ -692,6 +735,7 @@
   image: /assets/images/figures/ZhGu24.jpg
   journal: NeuroImage
   doi: 10.1016/j.neuroimage.2024.120622
+  date: '2024-04-21'
 - key: SaZa24
   type: article
   category: peer-reviewed
@@ -839,6 +883,7 @@
   month: February
   journal: JAMA Psychiatry
   doi: 10.1001/jamapsychiatry.2023.5483
+  date: '2024-02-07'
 - key: GoMa24
   type: article
   category: peer-reviewed
@@ -875,6 +920,7 @@
   volume: 4
   number: 2
   doi: 10.1016/j.bpsgos.2023.100284
+  date: '2023-12-19'
 - key: CaMc23
   type: article
   category: peer-reviewed
@@ -963,6 +1009,7 @@
   journal: Frontiers in Neuroimaging
   volume: 2
   doi: 10.3389/fnimg.2023.1138193
+  date: '2023-12-21'
 - key: CaOt21
   type: article
   category: peer-reviewed
@@ -1038,6 +1085,7 @@
   journal: Developmental Cognitive Neuroscience
   volume: 52
   doi: 10.1016/j.dcn.2021.101042
+  date: '2021-12-02'
 - key: AlOt21
   type: article
   category: peer-reviewed
@@ -1129,6 +1177,7 @@
   volume: 78
   number: 9
   doi: 10.1001/jamapsychiatry.2021.1258
+  date: '2021-06-16'
 - key: OtGa22
   type: article
   category: peer-reviewed
@@ -1149,6 +1198,7 @@
   volume: 117
   number: 5
   doi: 10.1111/add.15772
+  date: '2021-12-15'
 - key: OtUh22
   type: article
   category: peer-reviewed
@@ -1223,6 +1273,7 @@
   journal: Drug and Alcohol Dependence
   volume: 230
   doi: 10.1016/j.drugalcdep.2021.109185
+  date: '2021-11-24'
 - key: CiAn22
   type: article
   category: peer-reviewed
@@ -1248,6 +1299,7 @@
   journal: Neurotoxicology and Teratology
   volume: 91
   doi: 10.1016/j.ntt.2022.107089
+  date: '2022-03-18'
 - key: OwHa22
   type: article
   category: peer-reviewed
@@ -1279,6 +1331,7 @@
   volume: 30
   number: 6
   doi: 10.1037/pha0000532
+  date: '2021-12-16'
 - key: OwAl22
   type: article
   category: peer-reviewed
@@ -1408,6 +1461,7 @@
   volume: 12
   number: 1
   doi: 10.1038/s41398-022-01956-4
+  date: '2022-05-06'
 - key: GaCh22
   type: article
   category: peer-reviewed
@@ -1444,6 +1498,7 @@
   journal: Developmental Cognitive Neuroscience
   volume: 57
   doi: 10.1016/j.dcn.2022.101144
+  date: '2022-08-10'
 - key: ChOr22
   type: article
   category: peer-reviewed
@@ -1469,6 +1524,7 @@
   volume: 5
   number: 10
   doi: 10.1001/jamanetworkopen.2022.35721
+  date: '2022-10-24'
 - key: HaOw22
   type: article
   category: peer-reviewed
@@ -1496,6 +1552,7 @@
   volume: 33
   number: 1
   doi: 10.1093/cercor/bhac060
+  date: '2022-02-08'
 - key: MaRo22
   type: article
   category: peer-reviewed
@@ -1522,6 +1579,7 @@
   volume: 79
   number: 9
   doi: 10.1001/jamapsychiatry.2022.2196
+  date: '2022-08-10'
 - key: CaCu22
   type: article
   category: peer-reviewed
@@ -1645,6 +1703,7 @@
   volume: 28
   number: 2
   doi: 10.1038/s41380-022-01855-6
+  date: '2022-11-15'
 - key: YuHa23
   type: article
   category: peer-reviewed
@@ -1671,6 +1730,7 @@
   volume: 44
   number: 4
   doi: 10.1002/hbm.26172
+  date: '2022-12-19'
 - key: LoCh23
   type: article
   category: peer-reviewed
@@ -1697,6 +1757,7 @@
   journal: Frontiers in Integrative Neuroscience
   volume: 17
   doi: 10.3389/fnint.2023.1084748
+  date: '2023-03-09'
 - key: AlHu23
   type: article
   category: peer-reviewed
@@ -1765,6 +1826,7 @@
   journal: 'Psychiatry Research: Neuroimaging'
   volume: 330
   doi: 10.1016/j.pscychresns.2023.111614
+  date: '2023-02-15'
 - key: ZhMa23
   type: article
   category: peer-reviewed
@@ -1792,6 +1854,7 @@
   journal: NeuroImage
   volume: 270
   doi: 10.1016/j.neuroimage.2023.119946
+  date: '2023-02-16'
 - key: LoDu23
   type: article
   category: peer-reviewed
@@ -1819,6 +1882,7 @@
   volume: 72
   number: 6
   doi: 10.1016/j.jadohealth.2023.02.008
+  date: '2023-04-07'
 - key: GeGo23
   type: article
   category: peer-reviewed
@@ -1851,6 +1915,7 @@
   journal: Frontiers in Behavioral Neuroscience
   volume: 17
   doi: 10.3389/fnbeh.2023.1213894
+  date: '2023-10-24'
 - key: AlOw23
   type: article
   category: peer-reviewed
@@ -1931,3 +1996,4 @@
   month: June
   journal: Molecular Psychiatry
   doi: 10.1038/s41380-023-02148-2
+  date: '2023-06-28'

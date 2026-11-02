@@ -54,6 +54,7 @@ type: paper
 pubman_managed: true
 featured: true
 month: 5
+date: '2026-05-26'
 links:
   website: https://doi.org/10.1542/peds.2025-074604
 figure: /assets/images/figures/BaPs26.jpg

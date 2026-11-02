@@ -17,6 +17,7 @@ type: paper
 pubman_managed: true
 featured: false
 month: 10
+date: '2023-10-24'
 links:
   website: https://doi.org/10.3389/fnbeh.2023.1213894
 figure: /assets/images/figures/GeGo23.jpg

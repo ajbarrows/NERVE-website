@@ -8,6 +8,7 @@ const publications = defineCollection({
     authors: z.array(z.string()),
     year: z.number(),
     month: z.number().min(1).max(12).optional(),
+    date: z.coerce.date().optional(), // earliest online availability (pubman); preferred for sorting
     venue: z.string(),
     type: z.enum(['paper', 'book', 'patent', 'software']).default('paper'),
     cover: image().optional(),

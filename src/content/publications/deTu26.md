@@ -21,6 +21,7 @@ type: paper
 pubman_managed: true
 featured: true
 month: 8
+date: '2026-05-09'
 links:
   website: https://doi.org/10.1016/j.dcn.2026.101740
 figure: /assets/images/figures/deTu26.jpg

@@ -13,6 +13,7 @@ venue: BMJ Public Health
 type: paper
 pubman_managed: true
 featured: false
+date: '2025-07-01'
 links:
   website: https://doi.org/10.1136/bmjph-2024-001605
 figure: /assets/images/figures/BaKl25.png

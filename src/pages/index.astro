@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import { getCollection } from 'astro:content';
+import { pubSortKey } from '../utils/pubSort';
 import { Image } from 'astro:assets';
 import { ArrowRight, Newspaper, Megaphone } from 'lucide-react';
 import { SITE } from '../config';
@@ -11,7 +12,7 @@ const papers = (await getCollection('publications'))
   .sort((a, b) => {
     const yearDiff = b.data.year - a.data.year;
     if (yearDiff !== 0) return yearDiff;
-    return (b.data.month ?? 0) - (a.data.month ?? 0);
+    return pubSortKey(b.data) - pubSortKey(a.data);
   })
   .slice(0, 3);
 

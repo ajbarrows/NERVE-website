@@ -8,6 +8,7 @@ venue: Biological Psychiatry
 type: paper
 pubman_managed: true
 featured: false
+date: '2025-10-01'
 links:
   website: https://doi.org/10.1016/j.biopsych.2025.09.012
 figure: /assets/images/figures/LuHu25.jpg

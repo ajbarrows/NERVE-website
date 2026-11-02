@@ -2,13 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import PublicationItem from '../components/PublicationItem.astro';
 import { getCollection } from 'astro:content';
+import { pubSortKey } from '../utils/pubSort';
 
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 const allPapers = (await getCollection('publications')).sort((a, b) => {
   const yearDiff = b.data.year - a.data.year;
   if (yearDiff !== 0) return yearDiff;
-  return (b.data.month ?? 0) - (a.data.month ?? 0);
+  return pubSortKey(b.data) - pubSortKey(a.data);
 });
 
 // Build author-key → team member lookup
@@ -144,7 +145,7 @@ for (let i = 0; i < validEntries.length; i += 50) {
               avatarSrc: `${base}${m.data.avatar}`,
             }))}
             data-year={paper.data.year}
-            data-month={paper.data.month}
+            data-sort-key={pubSortKey(paper.data)}
             data-citations={citationsByKey[paper.id] ?? -1}
             data-core={isCore}
             data-groups={groups}
@@ -191,8 +192,8 @@ for (let i = 0; i < validEntries.length; i += 50) {
       if (key === 'date') {
         const yearDiff = Number(b.dataset.year) - Number(a.dataset.year);
         if (yearDiff !== 0) return yearDiff;
-        const am = Number(a.dataset.month) || 0;
-        const bm = Number(b.dataset.month) || 0;
+        const am = Number(a.dataset.sortKey) || 0;
+        const bm = Number(b.dataset.sortKey) || 0;
         return bm - am;
       }
       return Number(b.dataset.citations) - Number(a.dataset.citations);
